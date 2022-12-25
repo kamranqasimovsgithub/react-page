@@ -1,15 +1,29 @@
 {
   "files": {
-    "main.css": "/react-page/static/css/main.e6c13ad2.css",
-    "main.js": "/react-page/static/js/main.c50f23bb.js",
-    "static/js/787.a2bf511c.chunk.js": "/react-page/static/js/787.a2bf511c.chunk.js",
+    "main.css": "/react-page/static/css/main.28020e5a.css",
+    "main.js": "/react-page/static/js/main.7d8f6bd9.js",
+    "static/media/blog1.jpg": "/react-page/static/media/blog1.261f3fde25f486e33690.jpg",
+    "static/media/waterfall2.jpg": "/react-page/static/media/waterfall2.5af12c11c7190afad5e8.jpg",
+    "static/media/field2.jpg": "/react-page/static/media/field2.9517e51d08b0316f4783.jpg",
+    "static/media/mountain1.jpg": "/react-page/static/media/mountain1.e5ebeeef6c1423052a21.jpg",
+    "static/media/blog2.jpg": "/react-page/static/media/blog2.a9ef9eda066d34ec4102.jpg",
+    "static/media/field3.jpg": "/react-page/static/media/field3.27bcb75a3bf84d91947e.jpg",
+    "static/media/mountain6.jpg": "/react-page/static/media/mountain6.eee1bb15697533813fb1.jpg",
+    "static/media/field4.jpg": "/react-page/static/media/field4.e6004d7cd3691a3d90f1.jpg",
+    "static/media/mountain5.jpg": "/react-page/static/media/mountain5.e80473fbd1b1db2ff736.jpg",
+    "static/media/mountain3.jpg": "/react-page/static/media/mountain3.ef8add2c8121fbef5291.jpg",
+    "static/media/mountain2.jpg": "/react-page/static/media/mountain2.e147bd129f5c22bb5572.jpg",
+    "static/media/waterfall1.jpg": "/react-page/static/media/waterfall1.c56830257f4c58c6aecd.jpg",
+    "static/media/mountain4.jpg": "/react-page/static/media/mountain4.dd931c6933dd1cba827e.jpg",
+    "static/media/field1.jpg": "/react-page/static/media/field1.60fa4eed1e09350e8600.jpg",
+    "static/media/waterfall3.jpg": "/react-page/static/media/waterfall3.6060b8327c08353cad5f.jpg",
+    "static/media/blog3.jpg": "/react-page/static/media/blog3.aa5a851732ebfd9745c6.jpg",
     "index.html": "/react-page/index.html",
-    "main.e6c13ad2.css.map": "/react-page/static/css/main.e6c13ad2.css.map",
-    "main.c50f23bb.js.map": "/react-page/static/js/main.c50f23bb.js.map",
-    "787.a2bf511c.chunk.js.map": "/react-page/static/js/787.a2bf511c.chunk.js.map"
+    "main.28020e5a.css.map": "/react-page/static/css/main.28020e5a.css.map",
+    "main.7d8f6bd9.js.map": "/react-page/static/js/main.7d8f6bd9.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.c50f23bb.js"
+    "static/css/main.28020e5a.css",
+    "static/js/main.7d8f6bd9.js"
   ]
 }
