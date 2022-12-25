@@ -16,92 +16,92 @@ import  w3 from './image/waterfall3.jpg'
 export const data = [
     {
       id: 1,
-      name: "Kimyaçı",
+      name: "Mountain",
       author: "Paulo Coelho",
       price: 9.99,
       image: m1
     },
     {
       id: 2,
-      name: "Yüzyıllık Yalnızlık",
-      author: "Gabriel García Márquez",
+      name: "Big field",
+      author: "Gabriel Cruise",
       price: 19.99,
       image: f1
     },    
     {
       id: 3,
-      name: "Ekmek Kavgası",
-      author: "Orhan Kemal",
+      name: "Waterfall",
+      author: "John Doe",
       price: 19.99,
       image: w1
     },
     {
       id: 4,
-      name: "Sirlər xəzinəsi",
-      author: "Nizami Gəncəvi",
+      name: "Awesome",
+      author: "Alice Blue",
       price: 25.99,
       image: f2
     },
     {
       id: 5,
-      name: "Sirlər xəzinəsi",
-      author: "Nizami Gəncəvi",
+      name: "Natural",
+      author: "John Doe",
       price: 25.99,
       image: m2
     },
     {
       id: 6,
-      name: "Sirlər xəzinəsi",
-      author: "Nizami Gəncəvi",
+      name: "High land",
+      author: "Alice Blue",
       price: 25.99,
       image: m3
     },
     {
       id: 7,
-      name: "Sirlər xəzinəsi",
-      author: "Nizami Gəncəvi",
+      name: "Attractive",
+      author: "Pablo Picasso",
       price: 25.99,
       image: m4
     },
     {
       id: 8,
-      name: "Sirlər xəzinəsi",
-      author: "Nizami Gəncəvi",
+      name: "Cool",
+      author: "John Doe",
       price: 25.99,
       image: m5
     },
     {
       id: 9,
-      name: "Sirlər xəzinəsi",
-      author: "Nizami Gəncəvi",
+      name: "Rocky",
+      author: "Alice Blue",
       price: 25.99,
       image: m6
     },
     {
       id: 10,
-      name: "Sirlər xəzinəsi",
-      author: "Nizami Gəncəvi",
+      name: "Awesome",
+      author: "John Doe",
       price: 25.99,
       image: f3
     },
     {
       id: 11,
-      name: "Sirlər xəzinəsi",
-      author: "Nizami Gəncəvi",
+      name: "Track",
+      author: "Tom Marquez",
       price: 25.99,
       image: f4
     },
     {
       id: 12,
-      name: "Sirlər xəzinəsi",
-      author: "Nizami Gəncəvi",
+      name: "Climate",
+      author: "Alice Blue",
       price: 25.99,
       image: w3
     },
     {
       id: 13,
-      name: "Sirlər xəzinəsi",
-      author: "Nizami Gəncəvi",
+      name: "Wonderfall",
+      author: "Pablo Picasso",
       price: 25.99,
       image: w2
     }

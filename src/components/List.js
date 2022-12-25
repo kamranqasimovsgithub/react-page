@@ -10,7 +10,7 @@ const List = () => {
   return (
       <div id='3' className='container'>
             <header class="section-header text-center margin-bottom-30">
-                <h2 class='margin-bottom-30'><Link to="/" className="margin-bottom-30">Main page</Link><br/><span> {context.state.bookList.length} images found</span></h2>
+                <h2 class='margin-bottom-30'><Link to="/react-page/" className="margin-bottom-30">Main page</Link><br/><span> {context.state.bookList.length} images found</span></h2>
                 <p>See our wonderful image collection</p>
             </header>
       <div className='row'>

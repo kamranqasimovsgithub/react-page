@@ -71,7 +71,7 @@ const Main = ( props ) => {
               </div>
           ))}  
           <h4>
-            <Link to="/cart">Complete list</Link>
+            <Link to="/react-page/cart">Complete list</Link>
           </h4>  
         </div>
         <div className='column w-100'>
