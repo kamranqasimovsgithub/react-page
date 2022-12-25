@@ -1,0 +1,108 @@
+@media screen and (min-width: 1024px) {
+    .navbar {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+
+    .navbar {
+        width: 150px;
+        overflow: hidden;
+        margin-left: 10px;
+    }
+    
+    .navbar a {
+        float: left;
+        font-size: 14px;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    .dropdown {
+        overflow: hidden;
+    }
+    
+    .dropdown .dropbtn {
+        color: #fff;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 2;
+        border: none;
+        outline: none;
+        padding: 14px 16px;
+        margin: 0;
+        background-color: transparent;
+        
+    }
+    
+    .dropdown-row{
+        padding: 0;
+    }
+    /* .navbar a:hover, .dropdown:hover .dropbtn {
+        background-color: white;
+        z-index: 12;
+    } */
+    
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #fff;
+        width: 100%;
+        left: 0;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        text-align: center;
+        margin-top: 5px;
+        transition: 1.5s;
+    }
+    
+   
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    
+    /* Create three equal columns that floats next to each other */
+    .dropdown-column {
+        width: 100%;
+        padding: 0px;
+        height: 50px;
+        background-color: red;
+    }
+    
+    .dropdown-column a {
+        color: #212353;
+        text-align: center;
+        font-weight: 500;
+        margin: 0;
+        margin-left: 90px;
+    }
+    
+    .dropdown-column a:hover {
+        background-color: #ddd;
+    }
+    
+    /* Clear floats after the columns */
+    .dropdown-row:after {
+        content: "";
+        clear: both;
+    }
+
+}
+
+@media screen and (max-width: 394px) {
+    .dropdown .dropbtn {
+        font-size: 12px;  
+        
+    }    
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1024px) {
+    .navbar {
+        display: none;
+    }
+
+}

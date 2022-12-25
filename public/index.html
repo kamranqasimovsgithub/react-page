@@ -24,9 +24,72 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>React App</title>
+    <style>
+
+        body {
+            position: relative; /* needed for the overlay to extend when you scroll */
+          }
+
+        /* overlay styles, all needed */
+        .overlay1 {
+            width: 100vw;
+            height: 100vh;
+            position: fixed;
+            top: 0; 
+            left: 0;
+            background-color: gray;
+            opacity: 0.7;
+            border-radius: 5px;
+            z-index: 9;
+            display: none;
+        }
+
+        .overlay2 {
+          width: 100vw;
+            height: 100vh;
+            line-height: 200px;
+            position: fixed;
+            top: 0; 
+            left: 0;
+            background-color: gray;
+            opacity: 0.7;
+            border-radius: 5px;
+            text-align: center;
+            z-index: 10;
+        }
+
+        /* just some content with arbitrary styles for explanation purposes */
+        .modal {
+            width: 300px;
+            height: 200px;
+            line-height: 200px;
+            position: fixed;
+            top: 50%; 
+            left: 50%;
+            margin-top: -100px;
+            margin-left: -150px;
+            background-color: #62b869;
+            color: #FFF;
+            border-radius: 5px;
+            text-align: center;
+            z-index: 11; /* 1px higher than the overlay layer */
+        }
+
+        .content {
+            margin: 30px;
+        }
+
+        h1 {
+            font-family: 'Federo', sans-serif;
+        }
+    </style>
   </head>
-  <body>
+  <body id="body">
+    <div id='over1' class="overlay1"></div>
+    <div id='over2' class="overlay2"></div>
+    <div id='modal' class="modal">Welcome the page!</div>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
@@ -39,5 +102,13 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script>
+          setTimeout(modal, 2000)
+
+          function modal(){
+              document.getElementById('modal').style.display='none'
+              document.getElementById('over2').style.display='none'
+          }
+    </script>
   </body>
 </html>
