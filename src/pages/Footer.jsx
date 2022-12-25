@@ -81,7 +81,7 @@ function Footer(){
                 <div className="row justify-between footer-copyright">
                     <div className="column  mobile-margin-bottom">
                         <p className="copyright">
-                            © Datalandhouse, 2022
+                            © 2022 ReactDevelop
                         </p>
                     </div>
                 </div>
