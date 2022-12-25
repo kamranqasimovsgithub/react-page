@@ -57,10 +57,10 @@ const Element = () => {
                                                     <a href="#1">About</a>
                                                 </li>
                                                 <li className="dropdown-column">
-                                                    <a href="#2">Features</a>
+                                                    <a href="#2">Galerry</a>
                                                 </li> 
                                                 <li className="dropdown-column">
-                                                    <a href="#3">Team</a>
+                                                    <a href="#3">Blog</a>
                                                 </li> 
                                                 <li className="dropdown-column">
                                                     <a href="#4">Contact</a>
@@ -85,12 +85,12 @@ const Element = () => {
                                             </li>                                    
                                             <li className="navigation-item">
                                                 <a href="#2" className="navigation-link">
-                                                    Features
+                                                    Galerry
                                                 </a>
                                             </li>
                                             <li className="navigation-item">
                                                 <a href="#3" className="navigation-link">
-                                                    Team
+                                                    Blog
                                                 </a>
                                             </li>                                    
                                             <li className="navigation-item">

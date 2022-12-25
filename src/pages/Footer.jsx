@@ -32,10 +32,13 @@ function Footer(){
                                     <a href="#1" className="footer-menu-link">About</a>
                                 </li>
                                 <li className="footer-menu-item">
-                                    <a href="#2" className="footer-menu-link">Features</a>
+                                    <a href="#2" className="footer-menu-link">Galerry</a>
                                 </li>
                                 <li className="footer-menu-item">
-                                    <a href="#3" className="footer-menu-link">Team</a>
+                                    <a href="#3" className="footer-menu-link">Blog</a>
+                                </li>
+                                <li className="footer-menu-item">
+                                    <a href="#3" className="footer-menu-link">Contact</a>
                                 </li>
                             </ul>
                         </div> 

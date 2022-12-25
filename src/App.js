@@ -74,8 +74,8 @@ function App() {
 
         <Element/>
         <Routes>
-          <Route exact path="/" element={<Main/>} /> 
-          <Route path="/cart" element={<List/>} /> 
+          <Route exact path="/react-page/" element={<Main/>} /> 
+          <Route path="/react-page/cart" element={<List/>} /> 
         </Routes> 
 
         <Footer/>       
