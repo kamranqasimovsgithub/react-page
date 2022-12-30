@@ -1,11 +1,13 @@
 {
   "files": {
-    "main.css": "/react-page/static/css/main.1d2144a8.css",
-    "main.js": "/react-page/static/js/main.89dd1a38.js",
+    "main.css": "/react-page/static/css/main.f9dce7d3.css",
+    "main.js": "/react-page/static/js/main.26ecaa98.js",
+    "static/media/header-bg.jpg": "/react-page/static/media/header-bg.5c028c80f2c7fbc180f2.jpg",
     "static/media/blog1.jpg": "/react-page/static/media/blog1.261f3fde25f486e33690.jpg",
     "static/media/waterfall2.jpg": "/react-page/static/media/waterfall2.5af12c11c7190afad5e8.jpg",
     "static/media/field2.jpg": "/react-page/static/media/field2.9517e51d08b0316f4783.jpg",
     "static/media/mountain1.jpg": "/react-page/static/media/mountain1.e5ebeeef6c1423052a21.jpg",
+    "static/media/about-hero.jpg": "/react-page/static/media/about-hero.a9b80ea1deea4e09b4e3.jpg",
     "static/media/blog2.jpg": "/react-page/static/media/blog2.a9ef9eda066d34ec4102.jpg",
     "static/media/field3.jpg": "/react-page/static/media/field3.27bcb75a3bf84d91947e.jpg",
     "static/media/mountain6.jpg": "/react-page/static/media/mountain6.eee1bb15697533813fb1.jpg",
@@ -19,11 +21,11 @@
     "static/media/waterfall3.jpg": "/react-page/static/media/waterfall3.6060b8327c08353cad5f.jpg",
     "static/media/blog3.jpg": "/react-page/static/media/blog3.aa5a851732ebfd9745c6.jpg",
     "index.html": "/react-page/index.html",
-    "main.1d2144a8.css.map": "/react-page/static/css/main.1d2144a8.css.map",
-    "main.89dd1a38.js.map": "/react-page/static/js/main.89dd1a38.js.map"
+    "main.f9dce7d3.css.map": "/react-page/static/css/main.f9dce7d3.css.map",
+    "main.26ecaa98.js.map": "/react-page/static/js/main.26ecaa98.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d2144a8.css",
-    "static/js/main.89dd1a38.js"
+    "static/css/main.f9dce7d3.css",
+    "static/js/main.26ecaa98.js"
   ]
 }
