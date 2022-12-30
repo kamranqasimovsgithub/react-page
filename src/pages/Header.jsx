@@ -83,7 +83,7 @@ const Element = () => {
                                     <nav className="navigation">
                                         <ul className="navigation-list">
                                             <li className="navigation-item">
-                                                <Link to='/react-page/'><a href="#home" className="navigation-link">
+                                                <Link to='/react-page/' className='a'><a href="#home" className="navigation-link">
                                                     Home
                                                 </a></Link>
                                             </li>
@@ -119,7 +119,7 @@ const Element = () => {
                                 <span>Sign In</span>
                             </a>
                         </div>
-                        
+
                     </div>
                 </div>
             </header><span id='about'></span>

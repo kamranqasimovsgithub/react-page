@@ -2,7 +2,7 @@
 
 .header{
     padding: 2rem 0;
-    background-image: url('https://www.w3schools.com/w3images/forestbridge.jpg');
+    background-image: url('../image/header-bg.jpg');
     height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -44,7 +44,7 @@
 
 .sticky {
     width: 100%;
-    background-color: #5538ab;
+    background-color: #1c1c1c;
     position: fixed;
     top: 0;
     width: 100%;
@@ -54,7 +54,7 @@
 @media screen and (max-width: 1024px) {
     .sticky {
         width: 100%;
-        background-color: #5538ab;
+        background-color: #1c1c1c;
         position: fixed;
         top: 0;
         width: 100%;

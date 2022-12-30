@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import heroimage from '../image/about-hero.jpg';
 
 const About = () => {
 
@@ -30,7 +31,7 @@ const About = () => {
             <div className="row">
                 <div className="column">
                     <div className="hero-image text-right">
-                        <img onMouseOver={()=>changeOpacity(1)} onMouseOut={()=>changeOpacity(0)} id='hero' src='https://www.w3schools.com/w3images/lights.jpg' alt="Hero" srcset=""/>
+                        <img onMouseOver={()=>changeOpacity(1)} onMouseOut={()=>changeOpacity(0)} id='hero' src={heroimage} alt="Hero" srcset=""/>
                     </div>
                 </div>
 

@@ -50,7 +50,7 @@
     .dropdown-content {
         display: none;
         position: absolute;
-        background-color: #fff;
+        background-color: rgba(255,255,255,0.9);
         width: 100%;
         left: 0;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -84,16 +84,15 @@
     }
 
     .dropdown-column a:first-child {
-      
         margin-top: 5px;
-       
-
     }
 
     .dropdown-column .a {
         text-align: left;
         font-weight: 500;
         margin: 0;
+        padding: 0;
+
     }
     
     .dropdown-column a:hover {
