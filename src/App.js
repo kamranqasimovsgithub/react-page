@@ -7,6 +7,8 @@ import List from "./components/List";
 import { data } from "./data";
 import Footer from "./pages/Footer";
 import Topline from "./pages/Topline";
+import About from "./pages/About";
+import Galerry from "./pages/Galerry";
 export const BooksContext = createContext();
 
 function App() {
@@ -69,10 +71,9 @@ function App() {
     }}>
       <div className="App">
         <Topline/>
-        
-        
 
         <Element/>
+        
         <Routes>
           <Route exact path="/react-page/" element={<Main/>} /> 
           <Route path="/react-page/cart" element={<List/>} /> 

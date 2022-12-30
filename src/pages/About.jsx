@@ -17,11 +17,12 @@ const About = () => {
     }, [opac]);
 
     
+
       
 
 
     return (     
-        <section className="container hero-section margin-bottom-80">
+        <section  className="container hero-section margin-top-80">
             <header class="section-header text-center margin-bottom-30">
                 <h2 class='margin-bottom-30'>About</h2>
             </header>
@@ -41,7 +42,8 @@ const About = () => {
                     </div> 
                 </div>
                 
-            </div>
+        
+            </div> <span id='gallerry'></span>
         </section>
             
     )

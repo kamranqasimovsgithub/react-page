@@ -1,9 +1,10 @@
 
 .blog-cont{
     height: 700px;
-    background-color: rgb(179, 142, 252);
+    background-color: #5538ab;
     padding-top: 20px;
-    border-radius: 20px;
+    border-radius: 10px;
+    margin-top: -20px;
 }
 
 .blog-row{
@@ -61,7 +62,7 @@
 
 
 
-.overlay {
+.blog-overlay {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -71,14 +72,19 @@
     width: 100%;
     height: 20%;
     transition: .5s ease;
+    z-index: 2;
 }
 
-.container-overlay:hover .overlay {
+.container-overlay:hover .blog-overlay {
     height: 100%;
+}
+
+.container-overlay:hover .blog-overlay-small {
+    height: 98%;
 }
 .container-overlay:hover button {
     padding: 0 15px;
-    background-color: #39f8a9;
+    background-color: #53e2a7;
     display: block;
     height: 30px;
     color: #fff;
@@ -96,9 +102,10 @@
     transform: translate(-50%, -50%);
     text-align: center;
     transition: all 5s;
+    z-index: 3;
 }
 
-.overlay h4{
+.blog-overlay h4{
     font-weight: 600;
 }
 
@@ -111,7 +118,7 @@
 }
 
 .text button:hover{
-    background-color: rgb(210, 220, 210);
+    background-color: rgb(86, 243, 86);
 }
 
 
@@ -142,7 +149,7 @@
         min-width: 300px;
     }
     
-    .overlay h4{
+    .blog-overlay h4{
         font-size: 12px;
         font-weight: 600;
     }
@@ -162,5 +169,8 @@
 
     .blog-row .column:first-child{
         min-width: 200px !important;
+    }
+    .container-overlay:hover .blog-overlay-small {
+        height: 97%;
     }
 }

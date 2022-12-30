@@ -37,7 +37,7 @@ function Galerry() {
     sort = `${sort}`;
    
     return (
-        <div className='container filter-section margin-bottom-150'>
+        <div  className='container filter-section margin-top-80'>
             <div className="row">
                     <div className="column">
                         <div className="filter-panel">
@@ -70,13 +70,13 @@ function Galerry() {
                                 </div>
                             )} 
                         </div>
+
                 </div>
 
                 </div>  
 
 
         </div>
-                
     </div>
     )
   }

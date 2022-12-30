@@ -16,7 +16,7 @@
     .navbar a {
         float: left;
         font-size: 14px;
-        color: white;
+        color: black;
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
@@ -58,6 +58,7 @@
         text-align: center;
         margin-top: 8px;
         transition: 1.5s;
+        padding-bottom: 30px;
     }
     
    
@@ -73,15 +74,30 @@
     }
     
     .dropdown-column a {
-        color: #212353;
-        text-align: center;
+        text-align: left;
+        font-weight: 500;
+        margin: -5px 0;
+        margin-bottom: -40px;
+        margin-left: 90px;
+        width: 100%;
+
+    }
+
+    .dropdown-column a:first-child {
+      
+        margin-top: 5px;
+       
+
+    }
+
+    .dropdown-column .a {
+        text-align: left;
         font-weight: 500;
         margin: 0;
-        margin-left: 90px;
     }
     
     .dropdown-column a:hover {
-        background-color: #ddd;
+        /* background-color: #ddd; */
     }
     
     /* Clear floats after the columns */

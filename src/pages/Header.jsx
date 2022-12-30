@@ -1,6 +1,6 @@
 import '../css/style.css'
 import { useEffect, useState } from 'react';
-
+import { Link } from 'react-router-dom';
 const Element = () => {
 
 
@@ -29,8 +29,8 @@ const Element = () => {
 
     return (
         <div className="tst">
-            <header id='home' className="header animate-left margin-bottom-80">
-                <div  onScroll={changeSticky} id='navbar' className=" container container-header">
+            <header id='home' className="header animate-left">
+                <div  onScroll={changeSticky} id='navbar' className="container-header">
                     <div  className="row row-small-size align-center justify-between">
                         <div  className="column ">
                             <div className="row  align-center">
@@ -51,19 +51,29 @@ const Element = () => {
                                             
                                             <ul className="dropdown-row">
                                                 <li className="dropdown-column">
-                                                    <a href="#home">Home</a>
+                                                    <a href="#home">
+                                                        <Link to='/react-page/' className='a'>Home</Link>
+                                                    </a>
                                                 </li>
                                                 <li className="dropdown-column">
-                                                    <a href="#1">About</a>
+                                                    <a href="#1">
+                                                    <Link to='/react-page/' className='a'>About</Link>
+                                                    </a>
                                                 </li>
                                                 <li className="dropdown-column">
-                                                    <a href="#2">Galerry</a>
+                                                <a href="#2">
+                                                <Link to='/react-page/' className='a'>Galerry</Link>
+                                                </a>
                                                 </li> 
                                                 <li className="dropdown-column">
-                                                    <a href="#3">Blog</a>
+                                                <a href="#3">
+                                                <Link to='/react-page/' className='a'>Blog</Link>
+                                                </a>
                                                 </li> 
                                                 <li className="dropdown-column">
-                                                    <a href="#4">Contact</a>
+                                                    <a href="#4">
+                                                    <Link to='/react-page/' className='a'>Contact</Link>
+                                                </a>
                                                 </li>       
                                             </ul>
                                         </div>
@@ -73,28 +83,27 @@ const Element = () => {
                                     <nav className="navigation">
                                         <ul className="navigation-list">
                                             <li className="navigation-item">
-                                                
-                                                <a href="#home" className="navigation-link">
+                                                <Link to='/react-page/'><a href="#home" className="navigation-link">
                                                     Home
-                                                </a>
+                                                </a></Link>
                                             </li>
                                             <li className="navigation-item">
-                                                <a href="#1" className="navigation-link">
+                                            <a href="#about" className="navigation-link">
                                                     About
                                                 </a>
                                             </li>                                    
                                             <li className="navigation-item">
-                                                <a href="#2" className="navigation-link">
-                                                    Galerry
+                                                <a href="#gallerry" className="navigation-link">
+                                                    Gallery
                                                 </a>
                                             </li>
                                             <li className="navigation-item">
-                                                <a href="#3" className="navigation-link">
+                                                <a href="#blog" className="navigation-link">
                                                     Blog
                                                 </a>
                                             </li>                                    
                                             <li className="navigation-item">
-                                                <a href="#4" className="navigation-link">
+                                                <a href="#contact" className="navigation-link">
                                                     Contact
                                                 </a>
                                             </li>
@@ -112,7 +121,7 @@ const Element = () => {
                         </div>
                     </div>
                 </div>
-            </header>
+            </header><span id='about'></span>
         </div>
     )
   };

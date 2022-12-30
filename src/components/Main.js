@@ -50,12 +50,12 @@ const Main = ( props ) => {
         <div className='column w-100'>
           <About/>
         </div>
-        
         <div className='column w-100'>
+
           <Galerry/>
         </div>
         
-        <div className='column book-list-small w-100'>
+        <div className='column book-list-small w-100 margin-bottom-80'>
             
           {context.state.bookList.map(book=> (book.id<=5) &&
           (
@@ -73,12 +73,14 @@ const Main = ( props ) => {
           <h4>
             <Link to="/react-page/cart">Complete list</Link>
           </h4>  
+        <span id='blog' ></span>
+
         </div>
         <div className='column w-100'>
           <Blog/>
         </div>
       </div>
-      
+     
       
     </div>
     

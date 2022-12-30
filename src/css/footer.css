@@ -5,16 +5,25 @@
 }
 
 .footer{
-    margin-top: 150px;
+    margin: 150px 0 0 0;
     padding-top: 50px;
     padding: 20px;
     padding-bottom: 90px;
-    background-color: rgb(91, 110, 135);
-    color: rgb(255, 254, 254);
+    background-color: #1c1c1c;
+    color: #1c1c1c;
 }
 
-.footer a, i{    
+.footer-h3-p{
     color: #fff;
+}
+
+.footer a{    
+    color: #212123;
+    
+}
+
+.footer .footer-menu-link i{    
+    font-size: 18px;    
 }
 
 .footer .column{
@@ -39,18 +48,21 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 20px auto;
-    padding-left: 60px;
+    padding: 30px auto;
+    padding-left: 40px;
+    padding-top: 10px;
+    background-color: rgb(137, 187, 36);
+    border-radius: 10px;
+    height: 100px;
+}
+
+.footer-contact-social .column{
+    margin: 0;
 }
 
 .footer-contact-social   .mail-head{
     margin-bottom: 15px;
 }
-
-/* .footer-contact-social   .mail-head a{
-    color: #212353 !important;
-} */
-
 
 .footer p{
     font-size: 18px;
@@ -80,14 +92,7 @@
     display: block;
 }
 
-.footer .logo{
-    display: block;
-    margin-bottom: 63px;
-}
 
-.footer .logo{
-    margin: 0 auto;
-}
 
 
 
@@ -115,33 +120,6 @@
 }
 
 
-.social-media-list{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-left: -7px;
-    margin-right: -7px;
-}
-
-.social-media-list .social-media-item{
-    padding-left: 7px;
-    padding-right: 7px;
-}
-
-.social-media-list .social-media-item .social-media-link{
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 30px;
-    width: 35px;
-    color: #212353;
-    text-align: center;
-}
-
-.social-media-list .social-media-item .social-media-link img{    
-    height: 20px;    
-}
 
 
 
@@ -158,14 +136,7 @@
         margin-bottom: 30px;
     }
 
-    .social{
-        margin: 0 auto;
-    }
-
-    .footer .footer-h3-p{
-        margin: 0 auto;
-        margin-bottom: 30px;
-    }
+ 
 
     .footer-contact-social{
         display: flex;
@@ -173,6 +144,8 @@
         align-items: center;
         justify-content: center;
         padding-left: 0px;
+        height: auto;
+        padding-top: 30px;
     }
 
     
@@ -217,6 +190,11 @@
         position:relative;
         margin-left: 60px;
         margin-bottom: 20px;
+    }
+
+    .footer .social-media{
+        text-align: center;
+        padding-left: 10px;
     }
 
     
