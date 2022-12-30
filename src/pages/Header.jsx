@@ -56,23 +56,23 @@ const Element = () => {
                                                     </a>
                                                 </li>
                                                 <li className="dropdown-column">
-                                                    <a href="#1">
-                                                    <Link to='/react-page/' className='a'>About</Link>
+                                                    <a href="#about">
+                                                    About
                                                     </a>
                                                 </li>
                                                 <li className="dropdown-column">
-                                                <a href="#2">
-                                                <Link to='/react-page/' className='a'>Galerry</Link>
-                                                </a>
+                                                    <a href="#gallerry">
+                                                        Gallery
+                                                    </a>
                                                 </li> 
                                                 <li className="dropdown-column">
-                                                <a href="#3">
-                                                <Link to='/react-page/' className='a'>Blog</Link>
-                                                </a>
+                                                    <a href="#blog">
+                                                    Blog
+                                                    </a>
                                                 </li> 
                                                 <li className="dropdown-column">
-                                                    <a href="#4">
-                                                    <Link to='/react-page/' className='a'>Contact</Link>
+                                                    <a href="#contact">
+                                                    Contact
                                                 </a>
                                                 </li>       
                                             </ul>
@@ -119,6 +119,7 @@ const Element = () => {
                                 <span>Sign In</span>
                             </a>
                         </div>
+                        
                     </div>
                 </div>
             </header><span id='about'></span>

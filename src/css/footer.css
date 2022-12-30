@@ -11,6 +11,7 @@
     padding-bottom: 90px;
     background-color: #1c1c1c;
     color: #1c1c1c;
+    height: 500px;
 }
 
 .footer-h3-p{
@@ -53,7 +54,7 @@
     padding-top: 10px;
     background-color: rgb(137, 187, 36);
     border-radius: 10px;
-    height: 100px;
+    height: 300px;
 }
 
 .footer-contact-social .column{
@@ -71,7 +72,7 @@
 .footer .footer-copyright{
     align-items: center;
     justify-content: space-between;
-    
+    color: #fff;
 }
 .footer-copyright .column{
     margin: 0 auto;
@@ -126,6 +127,8 @@
 @media screen and (max-width: 1024px) {
     .footer{
         text-align: center;
+        height: 850px;
+        margin-bottom: 0;
     }
 
     .footer .column{
@@ -136,6 +139,9 @@
         margin-bottom: 30px;
     }
 
+    .footer .footer-copyright{
+        margin-top: 30px;
+    }
  
 
     .footer-contact-social{
@@ -164,7 +170,6 @@
     .footer-contact-button{
         justify-content: center;
         align-items: center;
-
     }
 
     

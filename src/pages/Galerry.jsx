@@ -38,6 +38,10 @@ function Galerry() {
    
     return (
         <div  className='container filter-section margin-top-80'>
+            <header class="section-header text-center margin-bottom-30">
+                <h2 class='margin-bottom-30'>Gallery</h2>
+            </header>
+            
             <div className="row">
                     <div className="column">
                         <div className="filter-panel">

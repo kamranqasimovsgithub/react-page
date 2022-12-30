@@ -20,6 +20,10 @@
     padding: 0;
 }
 
+.filter-section h2{
+    color: #111;
+}
+
 
 .filter-panel{
     text-align: center;

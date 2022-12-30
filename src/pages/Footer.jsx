@@ -4,30 +4,30 @@ function Footer(){
 
 
     return (
-        <footer id="contact" className="footer border">
+        <footer id="contact" className="footer">
             <div className="container">
-                <div className="row footer-contact-button margin-bottom-80">
-                    <div className="column footer-h3-p text-center mobile-margin-bottom">
+                <div className="row footer-contact-button margin-bottom-30">
+                    <div className="column footer-h3-p text-center">
                         <h3>Contact us</h3>
                     </div>                    
                 </div>
 
-                <div className="row margin-bottom-95 footer-contact-social">
-                <div className="column  mobile-margin-bottom">
-                        <p className="mouse-link"><i class="fa fa-envelope"></i></p>  
-                        
-                        <div className="footer-menu">
-                            <h4 className='margin-bottom-26'>Useful Links</h4>
-                            <ul className="footer-menu-list">
+                <div className="row margin-bottom-30 footer-contact-social">
+                    <div className="column  mobile-margin-bottom">
+                            <p className="mouse-link"><i class="fa fa-envelope"></i></p>  
+                            
+                            <div className="footer-menu">
+                                <h4 className='margin-bottom-26'>Useful Links</h4>
+                                <ul className="footer-menu-list">
 
-                                <li className="footer-menu-item">
-                                    <a href="#" className="footer-menu-link">example@gmail.com</a>
-                                </li>
-                                
-                            </ul>
-                        </div> 
-                        
-                    </div>                                  
+                                    <li className="footer-menu-item">
+                                        <a href="#" className="footer-menu-link">example@gmail.com</a>
+                                    </li>
+                                    
+                                </ul>
+                            </div> 
+                            
+                        </div>                                  
                                   
                             
 
@@ -94,7 +94,7 @@ function Footer(){
                 <div className="row justify-between footer-copyright">
                     <div className="column  mobile-margin-bottom">
                         <p className="copyright">
-                            © 2022 ReactDevelop
+                            © 2022 UsingReact
                         </p>
                     </div>
                 </div>

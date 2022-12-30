@@ -57,8 +57,15 @@ body{
     align-items: center;
 }
 
+.section-header h2{
+    font-size: 40px;
+}
 
-
+@media screen and (max-width: 1024px ){
+    .section-header h2{
+        font-size: 30px;
+    }
+}
 @media screen and (max-width: 1024px ) {
     .row{
         margin-left: 0;
