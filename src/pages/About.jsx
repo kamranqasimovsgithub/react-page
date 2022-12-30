@@ -37,8 +37,8 @@ const About = () => {
 
                 <div className="column">
                     <div className="hero-content">
-                        <h1>We offer modern solutions</h1>
-                        <p>Optimize cost and accelerate to product development, new services and technologies or enhancements to existing systems which will assist the end user in improving overall service to customers</p>
+                        <h1>The best places to take pictures</h1>
+                        <p>There are a variety of activities that one can do in winter, summer, fall, and spring. There are also a variety of accommodations available in each season</p>
                         <a href="" className="button purple-button">Learn more</a>
                     </div> 
                 </div>

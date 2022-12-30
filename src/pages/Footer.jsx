@@ -13,7 +13,7 @@ function Footer(){
                 </div>
 
                 <div className="row margin-bottom-30 footer-contact-social">
-                    <div className="column  mobile-margin-bottom">
+                    <div className="column">
                             <p className="mouse-link"><i class="fa fa-envelope"></i></p>  
                             
                             <div className="footer-menu">
@@ -31,7 +31,7 @@ function Footer(){
                                   
                             
 
-                    <div className="column  mobile-margin-bottom">
+                    <div className="column ">
                         <p className="mouse-link"><i className="fa fa-mouse-pointer "></i></p>  
                         
                         <div className="footer-menu">
@@ -60,7 +60,7 @@ function Footer(){
                                   
                             
 
-                <div className="column  mobile-margin-bottom">
+                <div className="column">
                     <p className="mouse-link"><i class="fa fa-share-alt"></i></p>  
 
                     <div className="footer-menu ">
@@ -92,7 +92,7 @@ function Footer(){
                 </div>
                 </div>
                 <div className="row justify-between footer-copyright">
-                    <div className="column  mobile-margin-bottom">
+                    <div className="column ">
                         <p className="copyright">
                             © 2022 UsingReact
                         </p>

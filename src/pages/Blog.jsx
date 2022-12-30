@@ -10,7 +10,7 @@ const Blog = () =>{
         <div  className="container-large blog-cont">
             <header class="section-header text-center margin-bottom-30">
                 <h2 class='margin-bottom-30'>Blog</h2>
-                <p>Very interesting and cool content</p>
+                <p>Very interesting and mostly visited places</p>
             </header> 
             <div className="row blog-row">
                    
@@ -19,7 +19,7 @@ const Blog = () =>{
                         <img className="big-image" src={blog1} alt="Avatar" class="image"/>
                         <div className="blog-overlay">
                             <div className="text">
-                               <h4>Hello World</h4> 
+                               <h4>High mountains</h4> 
                                <button>More <i className="fa fa-arrow-right" aria-hidden="true"></i></button>
                             </div>
                         </div>
@@ -30,7 +30,7 @@ const Blog = () =>{
                              <img src={blog2} alt="Avatar" class="image"/>
                             <div className="blog-overlay blog-overlay-small" style={{bottom: '5px'}}>
                                 <div className="text">
-                                <h4>Hello World</h4> 
+                                <h4>Acient bridges</h4> 
                                 <button>More <i className="fa fa-arrow-right" aria-hidden="true"></i></button>
                                 </div>
                             </div>
@@ -40,7 +40,7 @@ const Blog = () =>{
                             <img src={blog3} alt="Avatar" class="image"/>
                             <div className="blog-overlay blog-overlay-small">
                                 <div className="text">
-                                    <h4>Hello World</h4> 
+                                    <h4>Green leaves</h4> 
                                     <button>More <i className="fa fa-arrow-right" aria-hidden="true"></i></button>
                                 </div>
                             </div>

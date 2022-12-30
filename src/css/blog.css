@@ -179,3 +179,19 @@
         height: 97%;
     }
 }
+
+
+@media screen and (max-width: 600px) {
+    .blog-overlay {
+        height: 28%;
+    }   
+
+  
+}
+
+
+@media screen and (max-width: 777px) {
+    .container-overlay:hover .blog-overlay-small {
+        height: 96%;
+    }
+}

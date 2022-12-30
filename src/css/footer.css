@@ -12,6 +12,7 @@
     background-color: #1c1c1c;
     color: #1c1c1c;
     height: 500px;
+    max-height: 1100px;
 }
 
 .footer-h3-p{
@@ -73,6 +74,7 @@
     align-items: center;
     justify-content: space-between;
     color: #fff;
+    margin-top: auto;
 }
 .footer-copyright .column{
     margin: 0 auto;
@@ -120,6 +122,9 @@
     margin-right: 10px;
 }
 
+.footer-contact-button h3{
+    font-size: 40px;
+}  
 
 
 
@@ -127,7 +132,7 @@
 @media screen and (max-width: 1024px) {
     .footer{
         text-align: center;
-        height: 850px;
+        height: auto;
         margin-bottom: 0;
     }
 
@@ -180,7 +185,7 @@
 
     }
     .footer-contact-button h3{
-        font-size: 40px;
+        font-size: 30px;
     }   
 
     

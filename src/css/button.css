@@ -38,16 +38,29 @@ button, .button{
     }
 }
 
-@media screen and (max-width: 394px) {
+@media screen and (max-width: 444px) {
     .header .white-button{
         margin: 0 auto;
         justify-content: center;
-        padding:10px 0;
-        margin-left: -100px;
+        padding:10px 15px;
+        margin-left: 0px;
     }
 
     .header .white-button span{
-        font-size: 12px;
+        font-size: 14px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 322px) {
+    .header .white-button{
+        justify-content: center;
+        padding:10px 15px;
+        width: 90px;
+    }
+
+    .header .white-button span{
+        font-size: 14px;
         text-align: center;
     }
 }

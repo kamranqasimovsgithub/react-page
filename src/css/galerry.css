@@ -38,13 +38,13 @@
 
 .filter-section select{
     height: 40px;
-    background-color: rgb(231, 243, 248);
+    background-color: #f1f1f3;
     max-width: 400px;
     width: 100%;
     vertical-align: text-bottom;
     font-size: 20px;
     margin-right: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid rgb(145, 113, 113);
     color: rgb(110, 99, 99);
     font-size: 16px;
 }
@@ -108,7 +108,6 @@
 
 .filter-photos{
     display: flex;
-    background-color: peachpuff;
 }
 
 @media screen and (max-width: 780px) {
@@ -134,18 +133,3 @@
 }
 
 
-/* #choose{
-    color: silver;
-}
-#choose span{
-    color: silver;
-}
-
-select:invalid,
-select option[value=""] {
-  color: #999;
-}
-
-select option:first-child{
-    color: red;
-} */

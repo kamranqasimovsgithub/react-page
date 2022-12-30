@@ -9,9 +9,6 @@
     background-position: center;
 }
 
-.header .row{
-    
-}
 
 .header .logo{
     background-color: rgb(137, 187, 36);
@@ -25,7 +22,7 @@
 }
 
 .container-header{
-    padding: 0 5px;
+    padding: 5px 0;
     /* position: fixed; */
     /* z-index: 9999999;*/
     width: 100%; 
@@ -34,9 +31,8 @@
 }
 
 .header .row{
-    padding-top: 5px;
-    padding-bottom: 5px;
-    /* background-color: yellowgreen; */
+    padding-right: 10px;
+    /* background -color: yellowgreen; */
     margin: 0 auto;
     max-width: 1024px;
 }
