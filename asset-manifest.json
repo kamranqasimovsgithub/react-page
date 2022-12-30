@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-page/static/css/main.f5d4598e.css",
-    "main.js": "/react-page/static/js/main.bd748157.js",
+    "main.css": "/react-page/static/css/main.2f61abf7.css",
+    "main.js": "/react-page/static/js/main.ec323add.js",
     "static/media/blog1.jpg": "/react-page/static/media/blog1.261f3fde25f486e33690.jpg",
     "static/media/waterfall2.jpg": "/react-page/static/media/waterfall2.5af12c11c7190afad5e8.jpg",
     "static/media/field2.jpg": "/react-page/static/media/field2.9517e51d08b0316f4783.jpg",
@@ -19,11 +19,11 @@
     "static/media/waterfall3.jpg": "/react-page/static/media/waterfall3.6060b8327c08353cad5f.jpg",
     "static/media/blog3.jpg": "/react-page/static/media/blog3.aa5a851732ebfd9745c6.jpg",
     "index.html": "/react-page/index.html",
-    "main.f5d4598e.css.map": "/react-page/static/css/main.f5d4598e.css.map",
-    "main.bd748157.js.map": "/react-page/static/js/main.bd748157.js.map"
+    "main.2f61abf7.css.map": "/react-page/static/css/main.2f61abf7.css.map",
+    "main.ec323add.js.map": "/react-page/static/js/main.ec323add.js.map"
   },
   "entrypoints": [
-    "static/css/main.f5d4598e.css",
-    "static/js/main.bd748157.js"
+    "static/css/main.2f61abf7.css",
+    "static/js/main.ec323add.js"
   ]
 }
