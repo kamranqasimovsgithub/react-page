@@ -61,7 +61,7 @@ function Galerry() {
                     <div className="galerry-photos">
                     <h2>Travel beautiful places in the world</h2>
 
-                        <div className="image-list">
+                        <div id='' className="image-list">
                             {
                                 context.state.filterBook.map(book => 
                                 <div className="rivers" key={book.id}>
