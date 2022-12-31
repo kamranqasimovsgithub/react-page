@@ -8,16 +8,18 @@ import  f1 from './image/field1.jpg'
 import  f2 from './image/field2.jpg' 
 import  f3 from './image/field3.jpg' 
 import  f4 from './image/field4.jpg' 
+import  f5 from './image/field5.jpg' 
 import  w1 from './image/waterfall1.jpg' 
 import  w2 from './image/waterfall2.jpg' 
 import  w3 from './image/waterfall3.jpg' 
+import  w4 from './image/waterfall4.jpg' 
 
 
 export const data = [
     {
       id: 1,
       name: "Mountain",
-      author: "Paulo Coelho",
+      author: "Mike Ross",
       image: m1
     },
     {
@@ -47,13 +49,13 @@ export const data = [
     {
       id: 6,
       name: "High land",
-      author: "Alice Blue",
+      author: "Dan Star",
       image: m3
     },
     {
       id: 7,
       name: "Attractive",
-      author: "Pablo Picasso",
+      author: "Mike Ross",
       image: m4
     },
     {
@@ -77,7 +79,7 @@ export const data = [
     {
       id: 11,
       name: "Track",
-      author: "Tom Marquez",
+      author: "Jane Doe",
       image: f4
     },
     {
@@ -89,7 +91,19 @@ export const data = [
     {
       id: 13,
       name: "Wonderfall",
-      author: "Pablo Picasso",
+      author: "Mike Ross",
       image: w2
+    },
+    {
+      id: 14,
+      name: "Sunny",
+      author: "John Doe",
+      image: f5
+    },
+    {
+      id: 15,
+      name: "Tropical",
+      author: "John Doe",
+      image: w4
     }
   ];
