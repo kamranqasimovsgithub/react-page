@@ -11,6 +11,10 @@
     color: #fff;
 }
 
+.blog-cont .section-header p{
+    width: 80%;
+    margin: 0 auto;
+}
 
 .blog-row{
     display: flex;

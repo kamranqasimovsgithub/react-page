@@ -1,4 +1,4 @@
-
+import logo from '../image/logo192.png'
 
 function Footer(){
 
@@ -94,7 +94,7 @@ function Footer(){
                 <div className="row justify-between footer-copyright">
                     <div className="column ">
                         <p className="copyright">
-                            © 2022 UsingReact
+                            © 2022 UsingReact 
                         </p>
                     </div>
                 </div>
