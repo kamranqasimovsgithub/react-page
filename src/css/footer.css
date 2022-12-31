@@ -8,11 +8,16 @@
     margin: 150px 0 0 0;
     padding-top: 50px;
     padding: 20px;
-    padding-bottom: 90px;
     background-color: #1c1c1c;
     color: #1c1c1c;
     height: 500px;
-    max-height: 1100px;
+    max-height: 1150px;
+}
+
+
+.footer .container{
+    margin: 0 auto;
+    padding: 0;
 }
 
 .footer-h3-p{
@@ -30,6 +35,7 @@
 
 .footer .column{
     position: relative;
+
 }
 
 
@@ -145,7 +151,7 @@
     }
 
     .footer .footer-copyright{
-        margin-top: 30px;
+        margin-top: 60px;
     }
  
 

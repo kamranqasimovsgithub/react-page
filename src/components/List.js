@@ -5,25 +5,24 @@ import {Stars} from './Main'
 
 const List = () => {
     const context = useContext(BooksContext);
-    console.log(context);
 
   return (
       <div id='3' className='container'>
             <header class="section-header text-center margin-bottom-30">
-                <h2 class='margin-bottom-30'><br/><span> {context.state.bookList.length} images found</span></h2>
+                <h2 class='margin-bottom-30'><br/><span> {context.state.itemList.length} images found</span></h2>
                 <p>See our wonderful image collection</p>
             </header>
       <div className='row'>
         
-        <div className='column book-list-small w-100'>
+        <div className='column item-list-small w-100'>
             
-          {context.state.bookList.map(book=>
+          {context.state.itemList.map(item=>
           (
-              <div className='book-list' key={book.id}>
-                  <img src={book.image} alt={book.name}/>
-                  <div className='book-list-details'>
-                      <h4>{book.name}</h4>
-                      <p>{book.author}</p>
+              <div className='item-list' key={item.id}>
+                  <img src={item.image} alt={item.name}/>
+                  <div className='item-list-details'>
+                      <h4>{item.name}</h4>
+                      <p>{item.author}</p>
 
                       <p><Stars/></p>
                       

@@ -14,7 +14,7 @@ function Footer(){
 
                 <div className="row margin-bottom-30 footer-contact-social">
                     <div className="column">
-                            <p className="mouse-link"><i class="fa fa-envelope"></i></p>  
+                            <p className="mouse-link"><i class="fa fa-envelope" style={{marginLeft: '-10px'}}></i></p>  
                             
                             <div className="footer-menu">
                                 <h4 className='margin-bottom-26'>Useful Links</h4>
@@ -32,7 +32,7 @@ function Footer(){
                             
 
                     <div className="column ">
-                        <p className="mouse-link"><i className="fa fa-mouse-pointer "></i></p>  
+                        <p className="mouse-link"><i className="fa fa-mouse-pointer " ></i></p>  
                         
                         <div className="footer-menu">
                             <h4 className='margin-bottom-26'>Useful Links</h4>
@@ -61,7 +61,7 @@ function Footer(){
                             
 
                 <div className="column">
-                    <p className="mouse-link"><i class="fa fa-share-alt"></i></p>  
+                    <p className="mouse-link"><i class="fa fa-share-alt" style={{marginLeft: '-5px'}}></i></p>  
 
                     <div className="footer-menu ">
                         <h4 className="margin-bottom-26">Social Media</h4>

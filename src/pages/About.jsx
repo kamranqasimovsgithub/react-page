@@ -6,14 +6,12 @@ const About = () => {
     const [opac, changeOpacity] = useState(0)
     useEffect(() => {
         
-        // 👇️ set style on body element
         if(opac === 1){
             document.getElementById('over1').style.display='block'
         }else{
             document.getElementById('over1').style.display='none'
 
         }
-        //alert(1)
     
     }, [opac]);
 

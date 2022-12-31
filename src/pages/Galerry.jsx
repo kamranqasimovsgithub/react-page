@@ -10,18 +10,15 @@ let sort='';
 
 function Galerry() {
     function testFunction(event){
-        console.log('SELEXTBOOK', event.target);
 
-        context.selectBook(event.target.value);
+        context.selectImage(event.target.value);
         handleChange(event);
-        console.log('COLOR', event.currentTarget.id);
         if(event.target.id === 'choose'){
             document.getElementById('choose').style.color='red'
         }
     }
 
     const context = useContext(BooksContext);
-    console.log(context);
 
     const [myCar, setMyCar] = useState("");
     const [category, setCategory] = useState(0);
@@ -30,7 +27,6 @@ function Galerry() {
         setMyCar(event.target.value);
         setCategory(event.target.value);
     }
-    console.log('CRADDDDDD', sort)
 
 
     sort = myCar;
@@ -67,10 +63,10 @@ function Galerry() {
 
                         <div id='' className="image-list">
                             {
-                                context.state.filterBook.map(book => 
-                                <div className="rivers" key={book.id}>
-                                    <img src={book.image}  alt={book.name} />
-                                    <h4>{book.name}</h4>
+                                context.state.filterImage.map(item => 
+                                <div className="rivers" key={item.id}>
+                                    <img src={item.image}  alt={item.name} />
+                                    <h4>{item.name}</h4>
                                 </div>
                             )} 
                         </div>

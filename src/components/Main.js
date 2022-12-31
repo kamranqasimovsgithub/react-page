@@ -9,18 +9,16 @@ import About from '../pages/About';
 const Stars = () =>{
   var i=1;
   var text=''
-  //for(i=1;i<=3;i++)
 
   const rndInt = Math.floor(Math.random() * 6) + 1
-  console.log('Random',rndInt)
 
   let buffer = []
   
   for(i=1;i<=5;i++){
     if( i <= rndInt )
-      buffer.push(<i class="fa fa-star" style={{fontSize:"16px", color: 'yellow'}}></i>);
+      buffer.push(<i className="fa fa-star" style={{fontSize:"16px", color: 'yellow'}}></i>);
     else
-      buffer.push(<i class="fa fa-star" style={{fontSize:"16px", color: 'white'}}></i>);
+      buffer.push(<i className="fa fa-star" style={{fontSize:"16px", color: 'white'}}></i>);
     }
     
   return (
@@ -33,16 +31,8 @@ const Stars = () =>{
 
 const Main = ( props ) => {    
   const context  = useContext(BooksContext);
-  //console.log(context);
-
-  const totalCartCount = context.state.cart.reduce(
-    (total, book) => ( total = total + book.count ),
-    0).toFixed(0);
-
 
   return (
-    
-
 
     <div id='3' className='container'>
 
@@ -55,15 +45,15 @@ const Main = ( props ) => {
           <Galerry/>
         </div>
         
-        <div className='column book-list-small w-100 margin-bottom-80'>
+        <div className='column item-list-small w-100 margin-bottom-80'>
             
-          {context.state.bookList.map(book=> (book.id<=5) &&
+          {context.state.itemList.map(item=> (item.id<=5) &&
           (
-              <div className='book-list' key={book.id}>
-                  <img src={book.image} alt={book.name}/>
-                  <div className='book-list-details'>
-                      <h4>{book.name}</h4>
-                      <p>{book.author}</p>
+              <div className='item-list' key={item.id}>
+                  <img src={item.image} alt={item.name}/>
+                  <div className='item-list-details'>
+                      <h4>{item.name}</h4>
+                      <p>{item.author}</p>
 
                       <p><Stars/></p>
                       
@@ -71,7 +61,7 @@ const Main = ( props ) => {
               </div>
           ))}  
           <h4>
-            <Link to="/react-page/cart">Complete list</Link>
+            <Link to="/react-page/list">Complete list</Link>
           </h4>  
         <span id='blog' ></span>
 
@@ -83,8 +73,6 @@ const Main = ( props ) => {
      
       
     </div>
-    
-
   );
 };
 

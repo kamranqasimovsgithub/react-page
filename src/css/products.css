@@ -1,8 +1,8 @@
-.book-list-small{
+.item-list-small{
     text-align: center;
     padding: 20px;
 }
-.book-list {
+.item-list {
     display: flex;
     align-items: center;
     padding: 10px 30px;
@@ -19,14 +19,14 @@
 
   }
   
-.book-list img {
+.item-list img {
     width: 150px;
     height: 150px;
     margin: 0 10px 0 0;
     border-radius: 50%;
 }
 
-.book-list .book-list-details{
+.item-list .item-list-details{
     width: 50%;
     max-width: 150px;
     line-height: 25px;
@@ -34,13 +34,13 @@
 
 
 @media screen and (max-width: 575px) {
-    .book-list {
+    .item-list {
         flex-direction: column;
         align-items: center;
         justify-content: center;
       }
 
-      .book-list .book-list-details{
+      .item-list .item-list-details{
         
         max-width: 240px;
         padding-top: 25px;
