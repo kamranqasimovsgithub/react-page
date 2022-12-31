@@ -59,7 +59,7 @@ const Element = () => {
                                                     </a>
                                                 </li>
                                                 <li className="dropdown-column">
-                                                    <a href="#gallerry">
+                                                    <a href="#gallery">
                                                         Gallery
                                                     </a>
                                                 </li> 
@@ -91,7 +91,7 @@ const Element = () => {
                                                 </a>
                                             </li>                                    
                                             <li className="navigation-item">
-                                                <a href="#gallerry" className="navigation-link">
+                                                <a href="#gallery" className="navigation-link">
                                                     Gallery
                                                 </a>
                                             </li>

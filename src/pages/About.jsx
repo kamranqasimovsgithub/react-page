@@ -42,7 +42,7 @@ const About = () => {
                 </div>
                 
         
-            </div> <span id='gallerry'></span>
+            </div> <span id='gallery'></span>
         </section>
             
     )

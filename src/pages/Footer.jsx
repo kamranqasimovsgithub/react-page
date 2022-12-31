@@ -17,7 +17,7 @@ function Footer(){
                             <p className="mouse-link"><i class="fa fa-envelope" style={{marginLeft: '-10px'}}></i></p>  
                             
                             <div className="footer-menu">
-                                <h4 className='margin-bottom-26'>Useful Links</h4>
+                                <h4 className='margin-bottom-26'>Send Message</h4>
                                 <ul className="footer-menu-list">
 
                                     <li className="footer-menu-item">
@@ -42,16 +42,16 @@ function Footer(){
                                     <a href="#home" className="footer-menu-link">Home</a>
                                 </li>
                                 <li className="footer-menu-item">
-                                    <a href="#1" className="footer-menu-link">About</a>
+                                    <a href="#about" className="footer-menu-link">About</a>
                                 </li>
                                 <li className="footer-menu-item">
-                                    <a href="#2" className="footer-menu-link">Galerry</a>
+                                    <a href="#gallery" className="footer-menu-link">Gallery</a>
                                 </li>
                                 <li className="footer-menu-item">
-                                    <a href="#3" className="footer-menu-link">Blog</a>
+                                    <a href="#blog" className="footer-menu-link">Blog</a>
                                 </li>
                                 <li className="footer-menu-item">
-                                    <a href="#3" className="footer-menu-link">Contact</a>
+                                    <a href="#contact" className="footer-menu-link">Contact</a>
                                 </li>
                             </ul>
                         </div> 
