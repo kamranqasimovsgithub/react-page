@@ -19,13 +19,13 @@ export const data = [
     {
       id: 1,
       name: "Mountain",
-      author: "Mike Ross",
+      author: "Sam White",
       image: m1
     },
     {
       id: 2,
       name: "Big field",
-      author: "Gabriel Cruise",
+      author: "Ricky Waltz",
       image: f1
     },    
     {
@@ -37,7 +37,7 @@ export const data = [
     {
       id: 4,
       name: "Awesome",
-      author: "Alice Blue",
+      author: "Jane Lincy",
       image: f2
     },
     {
@@ -49,13 +49,13 @@ export const data = [
     {
       id: 6,
       name: "High land",
-      author: "Dan Star",
+      author: "Colin Chaplin",
       image: m3
     },
     {
       id: 7,
       name: "Attractive",
-      author: "Mike Ross",
+      author: "Sam White",
       image: m4
     },
     {
@@ -67,7 +67,7 @@ export const data = [
     {
       id: 9,
       name: "Rocky",
-      author: "Alice Blue",
+      author: "Jane Lincy",
       image: m6
     },
     {
@@ -85,13 +85,13 @@ export const data = [
     {
       id: 12,
       name: "Climate",
-      author: "Alice Blue",
+      author: "Jane Lincy",
       image: w3
     },
     {
       id: 13,
       name: "Wonderfall",
-      author: "Mike Ross",
+      author: "Sam White",
       image: w2
     },
     {
